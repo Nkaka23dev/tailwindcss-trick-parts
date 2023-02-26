@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <link rel="icon" href="https://www.svgrepo.com/show/224557/archery-cultures.svg" />
+      <body className=''>
         <Main />
         <NextScript />
       </body>
