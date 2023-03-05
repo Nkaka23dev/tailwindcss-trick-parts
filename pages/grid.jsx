@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Grid() {
   return (
-    <section className='py-24 '>
+   <>
+    {/* <section className='py-24 '>
       <div className='max-w-[86rem] mx-auto '>
        <div className='grid grid-cols-8 gap-4'>
         <div className='col-span-2 row-span-2'>
@@ -22,6 +23,12 @@ export default function Grid() {
         <div className='row-span-2'> <img src="https://nexter.netlify.app/img/gal-2.jpeg" className="w-full object-cover h-full aspect-video" alt="" /></div>
        </div>
       </div>
+     </section> */}
+     <section>
+      
      </section>
+   </>
+
+     
   )
 }

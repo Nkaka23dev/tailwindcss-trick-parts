@@ -26,6 +26,7 @@ export default function Home() {
           <h1 className='text-4xl mt-2'>This will be for different font.</h1>
         </div>
       </section> */}
+      <h1>All Recaped projects</h1>
      <video/>
     </>
   )

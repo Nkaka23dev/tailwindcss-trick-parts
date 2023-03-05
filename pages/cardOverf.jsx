@@ -4,7 +4,7 @@ export default function cardOverf() {
   return (
     // To hide the overflow on apply (s) class on body
     <section> 
-      <div className="flex max-w-7xl mx-auto s">
+      <div className="flex  max-w-[90rem] mx-auto overflow-auto s ">
         {[1, 2, 3,4,5,6,7].map((e, i) => {
           return (
             <div className="max-w-[40.33%]  p-4 basis-[40.33%] flex-grow-0 flex-shrink-0">

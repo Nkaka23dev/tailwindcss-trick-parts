@@ -3,8 +3,9 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 export default function Card() {
   return (
+   <>
     <section >
-      <div className='max-w-6xl mx-auto gap-5 pb-32   grid grid-cols-3 md:grid-cols-1 bg-white md:px-5 px-10'>
+      {/* <div className='max-w-6xl mx-auto gap-5 pb-32 grid grid-cols-3 md:grid-cols-1 bg-white md:px-5 px-10'>
         {[{ title: "VIJ main menu", link:[], desc: ["home", "education", "research", "about", "university", "vu", "alumni"] }, { title: "Most searched", link: [], desc: ["home", "education", "research", "about", "university", "vu", "alumni"] }, { title: "Feature", link: [1, 2, 3, 4, 5], desc: ["home", "education", "research"] }].map((value, idx) => {
           return (
             <div className=''>
@@ -34,7 +35,9 @@ export default function Card() {
             </div>
           )
         })}
-      </div>
-    </section>
+      </div> */}
+      
+    </section> 
+   </>
   )
 }

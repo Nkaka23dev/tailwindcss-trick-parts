@@ -6,7 +6,8 @@ const cooper = localFont({
   src:[
     {
       path:'../public/cooperhewitt-bold-webfont.woff2',
-      weight:'400'
+      weight:'300',
+      display: 'swap'
     }
   ]
 })
@@ -14,7 +15,7 @@ const cooper = localFont({
 const relaway = Raleway({subsets:['latin']})
 
 export default function App({ Component, pageProps }) {
-  return <div className={`${cooper.className}`}>
+  return <div>
     <Component {...pageProps} />
   </div>
 }
